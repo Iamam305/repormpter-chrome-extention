@@ -1,16 +1,17 @@
 {
   "name": "reprompter",
-  "displayName": "Reprompter",
+  "displayName": "Reprompter | Refine your chatgpt prompts",
   "version": "0.0.1",
   "description": "Enhance quality of prompts",
-  "author": "Plasmo Corp. <foss@plasmo.com>",
+  "author": "Ajietsh<ajietsh@mushroomworldbpl.com>",
   "scripts": {
     "dev": "plasmo dev",
     "build": "plasmo build",
     "package": "plasmo package"
   },
   "dependencies": {
-    "plasmo": "0.85.0",
+    "@plasmohq/messaging": "^0.6.2",
+    "plasmo": "0.86.2",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
@@ -20,12 +21,13 @@
     "@types/node": "20.11.5",
     "@types/react": "18.2.48",
     "@types/react-dom": "18.2.18",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
     "prettier": "3.2.4",
+    "tailwindcss": "^3.4.3",
     "typescript": "5.3.3"
   },
   "manifest": {
-    "host_permissions": [
-      "https://*/*"
-    ]
+    "host_permissions": []
   }
 }
